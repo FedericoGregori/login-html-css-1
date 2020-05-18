@@ -1,0 +1,95 @@
+body {
+    font-family: 'Raleway';
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, 
+    rgba(2,0,36,1) 0%, 
+    rgba(9,9,121,1) 36%, 
+    rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen {
+    position: relative;
+    width: 325px;
+    height: 700px;
+    border-radius: 25px;
+    background: #fff url(wavy_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-top: 10%;
+}
+
+.screen__title {
+    color: #002771;
+    font-weight: 900;
+    max-width: 80%;
+    margin: 40px;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.screen__form {
+    width: 85%;
+    margin: 10px auto 0 auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
+}
+
+.form__title {
+    font-style: 15px;
+    font-weight: 800;
+    color: #002771;
+}
+
+.form__inputs {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.form__inputs input {
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    margin: 12px 0;
+    border-bottom: 1px solid rgba(90, 80, 90, 0.40);
+}
+
+::placeholder {
+    color: #888888;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+
+.form__button {
+    display: block;
+    border: none;
+    background-color: #00266C;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 15px auto 0 auto;
+    padding: 6px 16px;
+}
+
+.screen__footer {
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.screen__footer strong {
+    font-weight: 800;
+}
+
